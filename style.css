@@ -1,0 +1,14 @@
+
+table {
+    table-layout: fixed;
+    width: 500px;
+    border: 1px solid black;
+    background-color: grey;
+}
+
+tr, td {
+    width: 5px;
+    height: 5px;
+    border: 1px solid black;
+}
+
