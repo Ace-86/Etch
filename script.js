@@ -30,7 +30,7 @@ function game(c) { //creates the board that allows  mouseover
 };
  
 function customButton() { //creates the custom board
-customInput.innerHtML = " "; //clears the inputBox
+userInput.innerHtML = " "; //clears the inputBox
 let c = document.getElementById("userInput").value; //gets the value from the inputBox 
 game(c); //calls the function to create the board
 };
