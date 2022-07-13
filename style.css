@@ -1,11 +1,6 @@
 .page-wrap {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    display: block;
-    background-color: #61e677;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     /* justify-content: center;
     align-items: center; */
 }
@@ -22,3 +17,10 @@ tr, td {
     border: 1.5px solid black;
 }
 
+.setting {
+    grid-column: 1 / 2;
+}
+
+#border {
+    border: 2px solid blue;
+}
