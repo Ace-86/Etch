@@ -16,7 +16,7 @@ body {
 }
 table {
     /* display: flex; */
-    table-layout: fixed;
+    table-layout: relative;
     /* justify-self: center; */
     width: 500px;
     border: 1px solid black;
