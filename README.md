@@ -14,11 +14,5 @@ custom board will take any number (limitations between 25-100 not implemented th
  
  
  
- 
-future release:
-clear board button that clears on click
-save images to a gallery that can be displayed below (stores last 5 images)
-custom input limitations (value, inputBox)
- 
 Under the hood:
 When a button is clicked, a function will run creating columns and rows within the DOM. These dom elements are targeted by a mouseover event which triggers another function that turns individual cells into a different color.
